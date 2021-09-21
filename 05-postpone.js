@@ -1,5 +1,5 @@
 /***********************************************************************
-Write a function `postpone` that accepts a callback and a delay in 
+Write a function, `postpone`, that accepts a callback and a delay in 
 milliseconds as arguments. `postpone` should return a new function. When
 the returned function is called, it should invoke the callback after the 
 given delay.

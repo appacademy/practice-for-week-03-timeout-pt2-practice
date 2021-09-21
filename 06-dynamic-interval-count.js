@@ -1,5 +1,5 @@
 /***********************************************************************
-Write a function `dynamicIntervalCount` that accepts a callback, delay
+Write a function, `dynamicIntervalCount`, that accepts a callback, a delay
 in milliseconds, and an optional amount as arguments. The function should 
 set an interval with the given callback and delay. If an amount argument 
 is passed, the interval should be cleared after the callback has been 

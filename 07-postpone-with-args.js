@@ -1,8 +1,9 @@
 /***********************************************************************
-Write a function `postponeWithArgs` that accepts a callback and a delay in 
-milliseconds as arguments. `postponeWithArgs` should return a new function. When
-the returned function is called, it should invoke the callback after the 
-given delay, passing any arguments it receives to the callback.
+Write a function, `postponeWithArgs`, that accepts a callback and a delay in 
+milliseconds as arguments. `postponeWithArgs` should return a new function that
+accepts any number of arguments. When the returned function is called, it should 
+invoke the callback after the given delay, passing any arguments it receives to 
+the callback.
 
 In addition to Mocha, we recommend that you test your code manually using 
 node with the examples below.
